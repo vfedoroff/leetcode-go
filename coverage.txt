@@ -1,0 +1,62 @@
+
+mode: atomic
+github.com/vfedoroff/leetcode/permutations/main.go:5.34,13.12 8 2
+github.com/vfedoroff/leetcode/permutations/main.go:33.2,33.15 1 2
+github.com/vfedoroff/leetcode/permutations/main.go:13.12,14.15 1 16
+github.com/vfedoroff/leetcode/permutations/main.go:14.15,15.16 1 5
+github.com/vfedoroff/leetcode/permutations/main.go:23.4,27.9 5 5
+github.com/vfedoroff/leetcode/permutations/main.go:15.16,17.5 1 2
+github.com/vfedoroff/leetcode/permutations/main.go:17.5,19.5 1 3
+github.com/vfedoroff/leetcode/permutations/main.go:28.4,31.4 2 11
+mode: atomic
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:3.39,5.22 2 1
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:8.2,9.27 2 1
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:15.2,17.10 3 1
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:5.22,7.3 1 0
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:9.27,10.27 1 2
+github.com/vfedoroff/leetcode/remove-duplicates-from-sorted-array/main.go:10.27,13.4 2 1
+mode: atomic
+github.com/vfedoroff/leetcode/remove-element/main.go:3.45,5.12 2 3
+github.com/vfedoroff/leetcode/remove-element/main.go:8.2,9.25 2 3
+github.com/vfedoroff/leetcode/remove-element/main.go:15.2,15.10 1 3
+github.com/vfedoroff/leetcode/remove-element/main.go:5.12,7.3 1 0
+github.com/vfedoroff/leetcode/remove-element/main.go:9.25,10.21 1 8
+github.com/vfedoroff/leetcode/remove-element/main.go:10.21,13.4 2 2
+mode: atomic
+github.com/vfedoroff/leetcode/reverse-integer/main.go:14.25,17.14 3 7
+github.com/vfedoroff/leetcode/reverse-integer/main.go:20.2,20.13 1 7
+github.com/vfedoroff/leetcode/reverse-integer/main.go:25.2,25.23 1 7
+github.com/vfedoroff/leetcode/reverse-integer/main.go:28.2,28.14 1 6
+github.com/vfedoroff/leetcode/reverse-integer/main.go:31.2,31.10 1 4
+github.com/vfedoroff/leetcode/reverse-integer/main.go:17.14,19.3 1 2
+github.com/vfedoroff/leetcode/reverse-integer/main.go:20.13,24.3 3 22
+github.com/vfedoroff/leetcode/reverse-integer/main.go:25.23,27.3 1 1
+github.com/vfedoroff/leetcode/reverse-integer/main.go:28.14,30.3 1 2
+mode: atomic
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:10.29,14.12 4 18
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:17.2,17.36 1 16
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:27.2,29.6 3 14
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:47.2,48.19 2 12
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:51.2,51.19 1 11
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:54.2,54.21 1 10
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:14.12,16.3 1 2
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:17.36,18.20 1 9
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:21.3,23.12 3 9
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:18.20,20.4 1 8
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:23.12,25.4 1 2
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:29.6,32.12 3 75
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:35.3,37.22 3 70
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:43.3,43.13 1 68
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:32.12,33.9 1 5
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:37.22,38.18 1 2
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:41.4,41.17 1 1
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:38.18,40.5 1 1
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:43.13,44.9 1 7
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:48.19,50.3 1 1
+github.com/vfedoroff/leetcode/string-to-integer-atoi/main.go:51.19,53.3 1 1
+mode: atomic
+github.com/vfedoroff/leetcode/two-sum/main.go:3.43,5.25 2 1
+github.com/vfedoroff/leetcode/two-sum/main.go:13.2,13.22 1 0
+github.com/vfedoroff/leetcode/two-sum/main.go:5.25,8.9 3 2
+github.com/vfedoroff/leetcode/two-sum/main.go:11.3,11.11 1 1
+github.com/vfedoroff/leetcode/two-sum/main.go:8.9,10.4 1 1
