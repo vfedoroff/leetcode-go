@@ -29,22 +29,27 @@ func (s *Stack) Pop() *TreeNode {
 	return top
 }
 
-// Nice explanation: https://www.geeksforgeeks.org/iterative-preorder-traversal/
-func preorderTraversal(root *TreeNode) []int {
+// Nice explanation: https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+func inorderTraversal(root *TreeNode) []int {
 	ret := []int{}
 	if root == nil {
 		return ret
 	}
-	stack := Stack{root}
-	for len(stack) > 0 {
-		node := stack.Pop()
-		ret = append(ret, node.Val)
-		if node.Right != nil {
-			stack.Push(node.Right)
+	stack := Stack{}
+	current := root
+	for {
+		if current != nil {
+			stack.Push(current)
+			current = current.Left
+			continue
 		}
-		if node.Left != nil {
-			stack.Push(node.Left)
+		if len(stack) > 0 {
+			current = stack.Pop()
+			ret = append(ret, current.Val)
+			current = current.Right
+			continue
 		}
+		break
 	}
 	return ret
 }
