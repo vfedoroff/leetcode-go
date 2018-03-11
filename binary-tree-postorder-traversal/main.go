@@ -76,3 +76,24 @@ func postorderTraversal(root *TreeNode) []int {
 	}
 	return ret
 }
+
+func postorderTraversalRecursion(root *TreeNode) []int {
+	ret := []int{}
+	if root == nil {
+		return ret
+	}
+	var innerFunc func(root *TreeNode)
+	innerFunc = func(root *TreeNode) {
+		if root == nil {
+			return
+		}
+		// first recur on left subtree
+		innerFunc(root.Left)
+		// then recur on right subtree
+		innerFunc(root.Right)
+		// now visiting root
+		ret = append(ret, root.Val)
+	}
+	innerFunc(root)
+	return ret
+}

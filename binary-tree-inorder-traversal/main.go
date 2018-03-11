@@ -53,3 +53,24 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return ret
 }
+
+func inorderTraversalRecursion(root *TreeNode) []int {
+	ret := []int{}
+	if root == nil {
+		return ret
+	}
+	var innerFunc func(root *TreeNode)
+	innerFunc = func(root *TreeNode) {
+		if root == nil {
+			return
+		}
+		// first recur on left subtree
+		innerFunc(root.Left)
+		// now visiting root
+		ret = append(ret, root.Val)
+		// then recur on right subtree
+		innerFunc(root.Right)
+	}
+	innerFunc(root)
+	return ret
+}

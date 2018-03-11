@@ -1,4 +1,4 @@
-# Problem: 134. Binary Tree Inorder Traversal
+# Problem: 102. Binary Tree Level Order Traversal
 
-In-order traversal is to traverse the left subtree first. Then visit the root. Finally, traverse the right subtree.
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
