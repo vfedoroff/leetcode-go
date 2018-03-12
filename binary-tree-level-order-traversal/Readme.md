@@ -1,3 +1,3 @@
-# Problem: 135.   Binary Tree Postorder Traversal
+# Problem: 102. Binary Tree Level Order Traversal
 
-Post-order traversal is to traverse the left subtree first. Then traverse the right subtree. Finally, visit the root.
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
