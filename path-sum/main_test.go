@@ -1,42 +1,50 @@
-package symmetrictree
+package pathsum
 
 import (
 	"testing"
 )
 
-func TestSymmetricTree(t *testing.T) {
+func TestPathSum(t *testing.T) {
 	testCases := []struct {
 		Input  *TreeNode
+		Sum    int
 		Output bool
 	}{
 		{
 			Input: &TreeNode{
-				Val: 1,
+				Val: 5,
 				Left: &TreeNode{
-					Val: 2,
+					Val: 4,
 					Left: &TreeNode{
-						Val: 3,
-					},
-					Right: &TreeNode{
-						Val: 4,
+						Val: 11,
+						Left: &TreeNode{
+							Val: 7,
+						},
+						Right: &TreeNode{
+							Val: 2,
+						},
 					},
 				},
 				Right: &TreeNode{
-					Val: 2,
+					Val: 8,
 					Left: &TreeNode{
-						Val: 4,
+						Val: 13,
 					},
 					Right: &TreeNode{
-						Val: 3,
+						Val: 4,
+						Right: &TreeNode{
+							Val: 1,
+						},
 					},
 				},
 			},
+			Sum:    22,
 			Output: true,
 		},
 	}
 
 	for _, test := range testCases {
-		out := isSymmetric(test.Input)
+		out := hasPathSum(test.Input, test.Sum)
 		if !(test.Output == out) {
 			t.Errorf("expected to get %#v, but got %#v", test.Output, out)
 		}
